@@ -328,12 +328,3 @@
 > Act as a DIY guide. Suggest simple, creative craft projects suitable for a relaxing day at home.
 
 ---
-
-If you want next:
-
-* 🔥 **Turn this into a Notion / Markdown template**
-* 🤖 **Make it an AI system prompt**
-* 🎯 **Create an “Advanced / Pro” version**
-* 🧩 **Add constraints for senior engineers / founders**
-
-Just tell me.
