@@ -1,229 +1,171 @@
-# Prompts
+# Prompt Engineering Library
 
 ## Daily Life and Productivity
-- 📅 Help me create a weekly planner with my tasks and appointments.
-- 📝 Draft a to-do list for today’s work tasks and personal errands.
-- 📧 Compose a professional email to follow up on a job application.
-- ⏰ Set reminders for my meetings and deadlines this week.
-- 📂 Organize my digital files and suggest a folder structure.
-- 📋 Plan a productive work-from-home day, including breaks.
-- 📊 Summarize my meeting notes into action items.
-- 📆 Outline my goals for the next quarter with achievable steps.
-- 💼 Create a detailed project plan for my new work assignment.
-- 🔄 Help me prioritize my tasks based on urgency and importance.
+
+- 📅 **Weekly Planner**
+  > Act as a productivity coach. Create a weekly planner based on my tasks and appointments. Ask me for my working hours, priorities, and deadlines if missing. Present the plan in a clean table with time blocks and buffer time.
+
+- 📝 **Daily To-Do List**
+  > Act as a personal assistant. Generate a prioritized to-do list for today using my work tasks and personal errands. Categorize tasks by urgency and effort, and suggest an optimal execution order.
+
+- 📧 **Job Application Follow-Up Email**
+  > Act as a professional career advisor. Write a polite, concise follow-up email for a job application. Ask for the job title, company name, and application date if not provided. Keep the tone professional and confident.
+
+- ⏰ **Reminders Planning**
+  > Act as a productivity assistant. Help me identify key meetings and deadlines this week and suggest reminder times that reduce the risk of missing them.
+
+- 📂 **Digital File Organization**
+  > Act as a digital organization expert. Propose a logical folder structure for my digital files based on work, personal, and long-term storage needs. Include naming conventions and maintenance tips.
+
+- 📋 **Work-From-Home Day Plan**
+  > Act as a remote-work productivity coach. Design a structured work-from-home schedule including focused work sessions, breaks, meals, and light movement.
+
+- 📊 **Meeting Notes to Action Items**
+  > Act as a project manager. Convert my meeting notes into clear action items with owners, deadlines, and priorities.
+
+- 📆 **Quarterly Goals**
+  > Act as a goal-setting coach. Help me define goals for the next quarter and break them down into measurable, achievable steps using SMART criteria.
+
+- 💼 **Project Plan**
+  > Act as a project management expert. Create a detailed project plan including scope, milestones, risks, dependencies, and timelines.
+
+- 🔄 **Task Prioritization**
+  > Act as a productivity strategist. Help me prioritize my tasks using an urgency–importance matrix and explain the reasoning behind each priority.
+
+---
 
 ## Health and Wellness
-- 🍎 Suggest a balanced meal plan for the week.
-- 🧘 Guide me through a 10-minute meditation session.
-- 🏋️ Create a beginner’s workout routine I can do at home.
-- 💧 Remind me to drink water throughout the day.
-- 😴 Give me tips for improving my sleep quality.
-- 🥗 Provide recipes for healthy snacks I can prepare quickly.
-- 🚴 Recommend some outdoor activities for staying fit.
-- 🧖 Share some self-care tips for a relaxing weekend.
-- 🚶 Suggest ways to incorporate more physical activity into my daily routine.
-- 🍲 Give me ideas for nutritious and easy-to-make dinners.
+
+- 🍎 **Weekly Meal Plan**
+  > Act as a nutritionist. Create a balanced weekly meal plan considering nutrition, variety, and ease of preparation. Ask about dietary restrictions if needed.
+
+- 🧘 **10-Minute Meditation**
+  > Act as a mindfulness coach. Guide me through a 10-minute meditation with clear steps, breathing cues, and calming language.
+
+- 🏋️ **Beginner Home Workout**
+  > Act as a fitness trainer. Create a beginner-friendly home workout routine requiring minimal or no equipment. Include warm-up and cool-down.
+
+- 💧 **Hydration Reminder System**
+  > Act as a health assistant. Suggest a realistic hydration reminder schedule based on a typical day.
+
+- 😴 **Sleep Improvement Tips**
+  > Act as a sleep specialist. Provide practical, science-based tips to improve sleep quality and nighttime routines.
+
+- 🥗 **Healthy Snack Recipes**
+  > Act as a nutrition coach. Suggest quick, healthy snack recipes with minimal ingredients and preparation time.
+
+- 🚴 **Outdoor Fitness Activities**
+  > Act as a fitness advisor. Recommend outdoor activities that improve cardiovascular health and are easy to maintain.
+
+- 🧖 **Self-Care Weekend**
+  > Act as a wellness coach. Suggest relaxing self-care activities for a weekend focused on mental and physical recovery.
+
+- 🚶 **Daily Movement Ideas**
+  > Act as a lifestyle coach. Provide practical ways to increase daily physical activity without structured workouts.
+
+- 🍲 **Easy Healthy Dinners**
+  > Act as a home cook. Suggest nutritious, easy-to-make dinner ideas suitable for busy evenings.
+
+---
 
 ## Career and Professional Development
-- 📈 What are the top skills needed for career growth in 2024?
-- 📚 Recommend some online courses for advancing my career.
-- 💡 Give me tips for preparing for a job interview.
-- 🗣️ Draft a professional networking email to connect with industry leaders.
-- 📝 Help me update my resume to reflect my latest achievements.
-- 🎤 Share tips for improving my public speaking skills.
-- 🌐 How can I build a strong professional online presence?
-- 📊 Create a summary of my recent project for my performance review.
-- 🤝 Provide advice for negotiating a salary increase.
-- 🏆 Suggest ways to enhance my productivity and efficiency at work.
+
+- 📈 **Career Skills**
+  > Act as a career strategist. Identify high-impact skills needed for career growth this year and explain why they matter.
+
+- 📚 **Online Courses**
+  > Act as a learning advisor. Recommend reputable online courses aligned with career advancement goals.
+
+- 💡 **Interview Preparation**
+  > Act as a hiring manager. Provide actionable interview preparation tips, including common questions and strong answer frameworks.
+
+- 🗣️ **Networking Email**
+  > Act as a professional networker. Draft a concise networking email that sounds genuine and respectful, not salesy.
+
+- 📝 **Resume Update**
+  > Act as a resume expert. Help me update my resume using achievement-focused bullet points and measurable results.
+
+- 🎤 **Public Speaking**
+  > Act as a communication coach. Share techniques to improve confidence, clarity, and engagement when speaking publicly.
+
+- 🌐 **Online Presence**
+  > Act as a personal branding expert. Explain how to build a strong and professional online presence step by step.
+
+- 📊 **Performance Review Summary**
+  > Act as a manager. Summarize my recent project highlighting impact, outcomes, and lessons learned.
+
+- 🤝 **Salary Negotiation**
+  > Act as a negotiation coach. Provide a structured approach to negotiating a salary increase, including scripts.
+
+- 🏆 **Work Productivity**
+  > Act as a productivity consultant. Suggest strategies to improve efficiency, focus, and output at work.
+
+---
 
 ## Creativity and Hobbies
-- 🎨 Give me ideas for a new art project using mixed media.
-- 🖋️ Write a short poem about the changing seasons.
-- 📚 Recommend some classic literature books to read.
-- 🎵 Suggest some musical instruments to learn as a beginner.
-- 🧩 Create a list of fun and challenging puzzles to solve.
-- ✍️ Start a creative writing prompt for a short story about a dystopian future.
-- 🎬 Recommend some indie films with unique storytelling.
-- 📷 Give me tips for improving my photography skills.
-- 🎧 Create a playlist of relaxing music for working.
-- 📖 Suggest some DIY craft projects for a rainy day.
+
+- 🎨 **Art Project Ideas**
+  > Act as a creative mentor. Propose mixed-media art project ideas with themes and materials.
+
+- 🖋️ **Poem Writing**
+  > Act as a poet. Write a short poem capturing the mood and imagery of changing seasons.
+
+- 📚 **Classic Literature**
+  > Act as a literature guide. Recommend classic books with brief explanations of why they’re worth reading.
+
+- 🎵 **Musical Instruments**
+  > Act as a music teacher. Suggest beginner-friendly instruments and explain learning difficulty and cost.
+
+- 🧩 **Puzzles**
+  > Act as a puzzle enthusiast. Create a list of puzzles that vary in difficulty and cognitive skills used.
+
+- ✍️ **Creative Writing Prompt**
+  > Act as a writing coach. Create a compelling opening prompt for a dystopian short story with a strong hook.
+
+- 🎬 **Indie Films**
+  > Act as a film critic. Recommend indie films known for unique storytelling and artistic vision.
+
+- 📷 **Photography Tips**
+  > Act as a photography instructor. Share practical tips to improve composition, lighting, and storytelling.
+
+- 🎧 **Work Music Playlist**
+  > Act as a music curator. Create a relaxing playlist optimized for focus and productivity.
+
+- 📖 **DIY Crafts**
+  > Act as a DIY expert. Suggest easy, creative craft projects suitable for a rainy day.
+
+---
 
 ## Travel and Adventure
-- 🌍 Plan a weekend getaway to a nearby city.
-- ✈️ Create an itinerary for a 10-day trip to Japan.
-- 🏕️ What are some essential items for a camping trip?
-- 🏝️ Recommend some off-the-beaten-path travel destinations.
-- 🗺️ Share tips for traveling on a budget.
-- 🏔️ Suggest some adventure activities for thrill-seekers.
-- 🚗 Plan a road trip across the country with key stops.
-- 🏨 Recommend unique and quirky places to stay.
-- 📸 Give me tips for capturing great travel photos.
-- 🍽️ Suggest local cuisines to try in Italy.
 
-## Learning and Education
-- 📖 Explain the theory of relativity in simple terms.
-- 🧪 Provide a list of fun and easy science experiments to do at home.
-- 🧠 What are the best strategies for effective studying?
-- 🌐 Share some resources for learning a new language.
-- 📜 Summarize the key points of the French Revolution.
-- 🎓 Give me tips for writing a compelling research paper.
-- 🗣️ How can I improve my public speaking skills for presentations?
-- 📚 Recommend some must-read books for history enthusiasts.
-- 🧮 Explain basic calculus concepts for beginners.
-- 🎨 Suggest ways to enhance my creative thinking skills.
+- 🌍 **Weekend Getaway**
+  > Act as a travel planner. Plan a weekend trip including itinerary, activities, and travel tips.
 
-## Technology and Innovation
-- 📱 What are the latest trends in mobile app development?
-- 🤖 Explain the basics of artificial intelligence and its applications.
-- 🌐 Share tips for staying safe online and protecting my privacy.
-- 📊 How can I use data analytics to improve business decisions?
-- 💻 Recommend some useful software for remote working.
-- 🚀 What are the most exciting space missions planned for 2024?
-- 🔧 Suggest some beginner-friendly coding projects.
-- 🎮 Recommend some innovative video games to try.
-- 📈 Explain the concept of blockchain and its potential uses.
-- 🧠 What are the future trends in human-computer interaction?
+- ✈️ **Japan Itinerary**
+  > Act as a travel expert. Create a detailed 10-day Japan itinerary balancing culture, food, and travel efficiency.
 
-## Finance and Money Management
-- 💵 Give me tips for creating a monthly budget.
-- 📈 Explain the basics of investing in the stock market.
-- 🏦 What are the best practices for saving money?
-- 🏡 How can I plan for buying my first home?
-- 💳 Share advice for managing credit card debt effectively.
-- 📊 Recommend some personal finance apps.
-- 💸 How can I start investing with a small budget?
-- 🛍️ Give me tips for smart shopping and saving money.
-- 🌱 Explain the benefits of sustainable and ethical investing.
-- 📈 What are some strategies for retirement planning?
+- 🏕️ **Camping Essentials**
+  > Act as an outdoor survival guide. List essential camping items with explanations.
 
-## Relationships and Social Life
-- 💬 Suggest conversation starters for meeting new people.
-- 👫 Give me tips for maintaining long-distance friendships.
-- ❤️ What are some fun date ideas for couples?
-- 🎉 Plan a themed party for a friend's birthday.
-- 🏡 Share advice for living with roommates harmoniously.
-- 👨‍👩‍👧 Give me tips for balancing work and family life.
-- 📞 How can I improve my communication skills with family members?
-- 🤗 Suggest ways to show appreciation to my loved ones.
-- 👥 What are some fun group activities for team building?
-- 💬 How can I handle conflicts in my relationships effectively?
+- 🏝️ **Hidden Destinations**
+  > Act as a travel insider. Recommend underrated travel destinations with unique experiences.
 
-## Entertainment and Leisure
-- 🎥 Recommend some must-watch documentaries.
-- 📺 What are the best TV shows to binge-watch in 2024?
-- 🎵 Create a playlist of feel-good songs.
-- 🎲 Suggest some board games for a fun game night.
-- 🎤 Give me ideas for a karaoke night with friends.
-- 📚 What are the best fantasy novels to read?
-- 🍿 Recommend some underrated movies from the last decade.
-- 🖌️ Share tips for starting a new hobby.
-- 🎮 What are the most anticipated video games of 2024?
-- 🎭 Suggest some interesting theater plays to watch.
+- 🗺️ **Budget Travel Tips**
+  > Act as a budget traveler. Share practical tips to reduce travel costs without sacrificing experience.
 
-## Home and Living
-- 🏡 Give me tips for organizing my home office.
-- 🛋️ Suggest some modern home decor ideas.
-- 🌿 How can I create a low-maintenance indoor garden?
-- 🛠️ Share advice for tackling home improvement projects.
-- 🧼 What are some effective cleaning hacks for busy people?
-- 🍳 Provide recipes for quick and healthy breakfast options.
-- 🛏️ Give me tips for improving my bedroom's feng shui.
-- 🕯️ How can I create a relaxing atmosphere at home?
-- 🐾 Share advice for taking care of pets.
-- 🧺 What are some eco-friendly living tips?
+- 🏔️ **Adventure Activities**
+  > Act as an adventure guide. Suggest thrill-seeking activities with safety considerations.
 
-## Food and Drink
-- 🍰 Recommend some easy dessert recipes.
-- 🍹 What are the best cocktails to make at home?
-- 🥗 Suggest some creative salad recipes.
-- 🍝 Give me ideas for a themed dinner night.
-- 🥘 Share recipes for comfort foods.
-- 🍲 What are some nutritious soup recipes?
-- 🍞 Suggest some homemade bread recipes.
-- 🥂 What are the best wines to pair with dinner?
-- 🍱 Share tips for preparing sushi at home.
-- 🍕 Give me recipes for making pizza from scratch.
+- 🚗 **Road Trip Plan**
+  > Act as a road trip planner. Design a route with key stops, attractions, and pacing advice.
 
-## Sports and Fitness
-- 🏃 Create a beginner’s running plan.
-- 🏋️ Suggest some strength training exercises for beginners.
-- 🧘 Guide me through a yoga routine.
-- 🚴 What are the benefits of cycling for fitness?
-- 🏀 Share tips for improving my basketball skills.
-- 🥋 Explain the basics of martial arts.
-- 🏌️ Give me advice for starting golf.
-- 🤸 Recommend some flexibility exercises.
-- 🏊 What are the health benefits of swimming?
-- 🧗 Suggest some beginner rock climbing tips.
+- 🏨 **Unique Stays**
+  > Act as a travel curator. Recommend quirky and memorable places to stay.
 
-## Science and Technology
-- 🧬 Explain the basics of genetic engineering.
-- 🌌 What are the latest discoveries in astronomy?
-- 🧪 Share some interesting chemistry experiments.
-- ⚛️ Describe the key principles of quantum physics.
-- 🧠 What are the most exciting developments in neuroscience?
-- 🌱 Explain how photosynthesis works.
-- 🌡️ What are the potential impacts of climate change?
-- 🚀 Describe the process of launching a space mission.
-- 💻 How do computer algorithms work?
-- 🔋 What are the future trends in renewable energy?
+- 📸 **Travel Photography**
+  > Act as a travel photographer. Provide tips for capturing compelling travel photos.
 
-## Arts and Literature
-- 📚 Summarize the plot of *To Kill a Mockingbird*.
-- 🖼️ Describe the characteristics of Impressionist art.
-- 🎨 What are the key elements of modernist literature?
-- ✍️ Share tips for writing a compelling novel.
-- 📖 Recommend some contemporary poetry collections.
-- 🎭 What are the most influential plays of all time?
-- 🖋️ How can I improve my creative writing skills?
-- 🎼 Describe the history of classical music.
-- 📜 What are the defining features of Gothic literature?
-- 🎨 Share some techniques for watercolor painting.
+- 🍽️ **Italian Cuisine**
+  > Act as a food travel guide. Suggest must-try local Italian dishes and regions.
 
-## History and Culture
-- 🏺 Summarize the key events of Ancient Egyptian history.
-- 🌍 What are the cultural traditions of Japan?
-- 🏛️ Describe the impact of the Renaissance on art and science.
-- 📜 Explain the causes and effects of World War I.
-- 🗺️ What were the key discoveries of the Age of Exploration?
-- 👑 Describe the reign of Queen Elizabeth I.
-- 📚 What are the significant milestones in the history of India?
-- 🗿 Explain the cultural significance of Easter Island statues.
-- 🏛️ Summarize the contributions of Ancient Greece to modern society.
-- 🗺️ What are the major historical events of the 20th century?
-
-## Mindfulness and Mental Health
-- 🧘 Guide me through a meditation session for stress relief.
-- 😌 What are the best practices for maintaining mental well-being?
-- 📖 Recommend books on mindfulness and mental health.
-- 🧠 Share tips for practicing gratitude daily.
-- 🛌 How can I establish a calming bedtime routine?
-- 🎨 Suggest some art therapy activities.
-- 🤗 Give me advice for building self-esteem.
-- 🗣️ What are effective communication techniques for emotional health?
-- 🧘 How can I practice mindfulness throughout the day?
-- 📚 Explain the benefits of journaling for mental clarity.
-
-## Personal Development and Growth
-- 📈 What are some effective goal-setting strategies?
-- 📚 Recommend books on personal development and self-improvement.
-- 🧠 Share techniques for developing a growth mindset.
-- 📝 How can I create a vision board for my future goals?
-- 🗣️ Give me tips for improving my decision-making skills.
-- 📊 What are the benefits of tracking personal progress?
-- 🌱 How can I develop better time management skills?
-- 💡 Suggest ways to enhance my critical thinking abilities.
-- 💬 What are the best practices for giving and receiving feedback?
-- 📈 Explain the importance of continuous learning and self-improvement.
-
-## Environment and Sustainability
-- 🌿 Share tips for living a more sustainable lifestyle.
-- 🌍 What are the key issues facing environmental conservation today?
-- 💧 Explain the importance of water conservation.
-- 🌱 How can I start a home composting system?
-- 🛍️ Suggest eco-friendly products to replace everyday items.
-- 🌞 Describe the benefits of using solar energy.
-- 🌍 What are some ways to reduce my carbon footprint?
-- 🐾 Explain the significance of protecting endangered species.
-- 🌱 How can I create a wildlife-friendly garden?
-- 🌿 What are the benefits of sustainable agriculture?
+---
