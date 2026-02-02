@@ -1,135 +1,344 @@
-# Prompt Engineering Library
+Nice idea 👌 — this is already solid. I’ll **refine, unify, and upgrade** it so it feels like a **professional prompt library**: clearer roles, consistent wording, better constraints, and higher-quality outputs.
 
-## Daily Life and Productivity
-
-- 📅 **Weekly Planner**  
-  > Act as a productivity coach. Create a weekly planner using my tasks and appointments. If details are missing, ask for working hours, priorities, and deadlines. Present the plan as a clean, time-blocked table with buffer time.
-
-- 📝 **Daily To-Do List**  
-  > Act as a personal assistant. Create a prioritized to-do list for today based on my work tasks and personal errands. Group tasks by urgency and effort, and suggest an optimal execution order.
-
-- 📧 **Job Application Follow-Up Email**  
-  > Act as a career advisor. Write a concise, professional follow-up email for a job application. Ask for the role, company, and application date if not provided.
-
-- ⏰ **Reminders Planning**  
-  > Act as a productivity assistant. Identify my key meetings and deadlines for the week and suggest optimal reminder times to prevent missed commitments.
-
-- 📂 **Digital File Organization**  
-  > Act as a digital organization expert. Propose a clear folder structure for work and personal files, including naming conventions and long-term maintenance tips.
-
-- 📋 **Work-From-Home Day Plan**  
-  > Act as a remote-work coach. Design a structured work-from-home schedule with focused work blocks, breaks, meals, and light movement.
-
-- 📊 **Meeting Notes to Action Items**  
-  > Act as a project manager. Turn my meeting notes into clear action items with owners, deadlines, and priorities.
-
-- 📆 **Quarterly Goals**  
-  > Act as a goal-setting coach. Help me define quarterly goals and break them into measurable, achievable steps using SMART criteria.
-
-- 💼 **Project Plan**  
-  > Act as a project management expert. Create a detailed project plan including scope, milestones, dependencies, risks, and timelines.
-
-- 🔄 **Task Prioritization**  
-  > Act as a productivity strategist. Prioritize my tasks using an urgency–importance matrix and briefly explain each decision.
+Below is an **improved, polished version** you can reuse directly.
 
 ---
 
-## Health and Wellness
+# 🧠 Prompt Engineering Library (Refined & Professional)
 
-- 🍎 **Weekly Meal Plan**  
-  > Act as a nutritionist. Create a balanced weekly meal plan that is practical and easy to prepare. Ask about dietary restrictions if needed.
+## 📅 Daily Life & Productivity
 
-- 🧘 **10-Minute Meditation**  
-  > Act as a mindfulness coach. Guide me through a 10-minute meditation with clear steps, breathing cues, and calming language.
+### 📅 Weekly Planner
 
-- 🏋️ **Beginner Home Workout**  
-  > Act as a fitness trainer. Create a beginner-friendly home workout requiring minimal equipment, including warm-up and cool-down.
+**Prompt:**
 
-- 💧 **Hydration Reminders**  
-  > Act as a health assistant. Suggest a realistic hydration reminder schedule for a typical day.
-
-- 😴 **Sleep Improvement**  
-  > Act as a sleep specialist. Provide practical, evidence-based tips to improve sleep quality and nighttime routines.
-
-- 🥗 **Healthy Snacks**  
-  > Act as a nutrition coach. Recommend quick, healthy snack recipes with minimal ingredients and prep time.
-
-- 🚴 **Outdoor Fitness**  
-  > Act as a fitness advisor. Suggest outdoor activities that improve cardiovascular health and are easy to sustain.
-
-- 🧖 **Self-Care Weekend**  
-  > Act as a wellness coach. Suggest simple self-care activities for a relaxing and restorative weekend.
-
-- 🚶 **Daily Movement**  
-  > Act as a lifestyle coach. Suggest realistic ways to increase daily movement without formal workouts.
-
-- 🍲 **Easy Healthy Dinners**  
-  > Act as a home cook. Recommend nutritious, easy-to-make dinners for busy evenings.
+> Act as a productivity coach. Create a clear, realistic weekly plan based on my tasks and appointments. If information is missing, ask for my working hours, priorities, deadlines, and energy levels. Present the output as a clean, time-blocked table with buffer time and rest periods included.
 
 ---
 
-## Career and Professional Development
+### 📝 Daily To-Do List
 
-- 📈 **Career Skills**  
-  > Act as a career strategist. Identify high-impact skills for career growth this year and explain their value.
+**Prompt:**
 
-- 📚 **Online Courses**  
-  > Act as a learning advisor. Recommend reputable online courses aligned with my career goals.
-
-- 💡 **Interview Preparation**  
-  > Act as a hiring manager. Provide interview preparation tips, common questions, and answer frameworks.
-
-- 🗣️ **Networking Email**  
-  > Act as a professional networker. Write a short, genuine networking email that feels respectful and natural.
-
-- 📝 **Resume Update**  
-  > Act as a resume expert. Improve my resume using achievement-focused bullets with measurable results.
-
-- 🎤 **Public Speaking**  
-  > Act as a communication coach. Share practical techniques to improve confidence, clarity, and audience engagement.
-
-- 🌐 **Online Presence**  
-  > Act as a personal branding expert. Explain how to build a strong professional online presence step by step.
-
-- 📊 **Performance Review Summary**  
-  > Act as a manager. Summarize my recent project focusing on impact, outcomes, and lessons learned.
-
-- 🤝 **Salary Negotiation**  
-  > Act as a negotiation coach. Provide a structured salary negotiation approach with example talking points.
-
-- 🏆 **Work Productivity**  
-  > Act as a productivity consultant. Recommend strategies to improve focus, efficiency, and output at work.
+> Act as a personal assistant. Create a prioritized to-do list for today based on my work tasks and personal errands. Group tasks by urgency and effort, recommend an optimal execution order, and highlight quick wins.
 
 ---
 
-## Creativity and Hobbies
+### 📧 Job Application Follow-Up Email
 
-- 🎨 **Art Project Ideas**  
-  > Act as a creative mentor. Suggest mixed-media art projects with themes and material ideas.
+**Prompt:**
 
-- 🖋️ **Poem Writing**  
-  > Act as a poet. Write a short poem capturing the imagery and mood of changing seasons.
+> Act as a career advisor. Write a concise, professional follow-up email for a job application. If missing, ask for the role title, company name, application date, and tone preference.
 
-- 📚 **Classic Literature**  
-  > Act as a literature guide. Recommend classic books with brief reasons for reading them.
+---
 
-- 🎵 **Musical Instruments**  
-  > Act as a music teacher. Suggest beginner-friendly instruments and compare learning difficulty and cost.
+### ⏰ Reminders Planning
 
-- 🧩 **Puzzles**  
-  > Act as a puzzle enthusiast. List fun and challenging puzzles with varying difficulty levels.
+**Prompt:**
 
-- ✍️ **Creative Writing Prompt**  
-  > Act as a writing coach. Create a strong opening prompt for a dystopian short story with a compelling hook.
+> Act as a productivity assistant. Identify my key meetings and deadlines for the week and suggest optimal reminder times (early warning, same-day, last-minute) to prevent missed commitments.
 
-- 🎬 **Indie Films**  
-  > Act as a film critic. Recommend indie films known for unique storytelling and artistic style.
+---
 
-- 📷 **Photography Tips**  
-  > Act as a photography instructor. Share actionable tips for composition, lighting, and visual storytelling.
+### 📂 Digital File Organization
 
-- 🎧 **Focus Playlist**  
-  > Act as a music curator. Create a calming playlist optimized for focus and deep work.
+**Prompt:**
 
-- 📖 **DIY Crafts**  
-  > Act as a DIY guide. Suggest simple, creative craft projects suitable for a rainy day.
+> Act as a digital organization expert. Propose a clean, scalable folder structure for both work and personal files. Include naming conventions, versioning rules, and long-term maintenance best practices.
+
+---
+
+### 🏠 Work-From-Home Day Plan
+
+**Prompt:**
+
+> Act as a remote-work coach. Design a structured work-from-home schedule with deep-focus blocks, short breaks, meals, light movement, and a clear shutdown routine.
+
+---
+
+### 📊 Meeting Notes → Action Items
+
+**Prompt:**
+
+> Act as a project manager. Convert my meeting notes into clear action items with owners, deadlines, priorities, and next steps. Highlight blockers and dependencies if present.
+
+---
+
+### 📆 Quarterly Goals Planning
+
+**Prompt:**
+
+> Act as a goal-setting coach. Help me define quarterly goals and break them down into measurable, achievable steps using SMART criteria. Include weekly milestones and success metrics.
+
+---
+
+### 💼 Project Plan
+
+**Prompt:**
+
+> Act as a project management expert. Create a detailed project plan covering scope, milestones, dependencies, risks, assumptions, and a realistic timeline.
+
+---
+
+### 🔄 Task Prioritization
+
+**Prompt:**
+
+> Act as a productivity strategist. Prioritize my tasks using an urgency–importance matrix. Briefly explain each decision and recommend what to delegate, defer, or eliminate.
+
+---
+
+## 🧘 Health & Wellness
+
+### 🍎 Weekly Meal Plan
+
+**Prompt:**
+
+> Act as a nutritionist. Create a balanced, practical weekly meal plan that is easy to prepare. Ask about dietary preferences, allergies, budget, and cooking time if needed.
+
+---
+
+### 🧘 10-Minute Meditation
+
+**Prompt:**
+
+> Act as a mindfulness coach. Guide me through a calming 10-minute meditation with clear steps, breathing cues, and grounding language suitable for beginners.
+
+---
+
+### 🏋️ Beginner Home Workout
+
+**Prompt:**
+
+> Act as a fitness trainer. Create a beginner-friendly home workout requiring minimal or no equipment. Include warm-up, main workout, cool-down, and safety tips.
+
+---
+
+### 💧 Hydration Reminders
+
+**Prompt:**
+
+> Act as a health assistant. Suggest a realistic hydration schedule tailored to a typical workday, including reminder times and hydration tips.
+
+---
+
+### 😴 Sleep Improvement
+
+**Prompt:**
+
+> Act as a sleep specialist. Provide practical, evidence-based strategies to improve sleep quality, evening routines, and morning wake-ups.
+
+---
+
+### 🥗 Healthy Snacks
+
+**Prompt:**
+
+> Act as a nutrition coach. Recommend quick, healthy snack ideas with minimal ingredients and preparation time.
+
+---
+
+### 🚴 Outdoor Fitness
+
+**Prompt:**
+
+> Act as a fitness advisor. Suggest enjoyable outdoor activities that improve cardiovascular health and are easy to sustain long-term.
+
+---
+
+### 🧖 Self-Care Weekend
+
+**Prompt:**
+
+> Act as a wellness coach. Design a simple, restorative self-care weekend plan balancing rest, reflection, and gentle activity.
+
+---
+
+### 🚶 Daily Movement
+
+**Prompt:**
+
+> Act as a lifestyle coach. Suggest realistic ways to increase daily movement without formal workouts, tailored to a busy schedule.
+
+---
+
+### 🍲 Easy Healthy Dinners
+
+**Prompt:**
+
+> Act as a home cook. Recommend nutritious, easy-to-prepare dinners suitable for busy evenings, including prep tips.
+
+---
+
+## 💼 Career & Professional Development
+
+### 📈 Career Skills Growth
+
+**Prompt:**
+
+> Act as a career strategist. Identify high-impact skills to develop this year based on my role and industry, and explain why each one matters.
+
+---
+
+### 📚 Online Courses
+
+**Prompt:**
+
+> Act as a learning advisor. Recommend reputable online courses aligned with my career goals, skill gaps, and time availability.
+
+---
+
+### 💡 Interview Preparation
+
+**Prompt:**
+
+> Act as a hiring manager. Provide interview preparation guidance, common questions, strong answer frameworks, and tips to avoid common mistakes.
+
+---
+
+### 🗣️ Networking Email
+
+**Prompt:**
+
+> Act as a professional networker. Write a short, authentic networking email that feels respectful, natural, and non-transactional.
+
+---
+
+### 📝 Resume Update
+
+**Prompt:**
+
+> Act as a resume expert. Improve my resume using achievement-focused bullet points with measurable results and clear impact.
+
+---
+
+### 🎤 Public Speaking
+
+**Prompt:**
+
+> Act as a communication coach. Share practical techniques to improve confidence, clarity, body language, and audience engagement.
+
+---
+
+### 🌐 Online Presence
+
+**Prompt:**
+
+> Act as a personal branding expert. Explain step-by-step how to build a strong, authentic professional online presence.
+
+---
+
+### 📊 Performance Review Summary
+
+**Prompt:**
+
+> Act as a manager. Summarize my recent work or project focusing on outcomes, impact, lessons learned, and areas for growth.
+
+---
+
+### 🤝 Salary Negotiation
+
+**Prompt:**
+
+> Act as a negotiation coach. Provide a structured salary negotiation strategy with example talking points and confidence tips.
+
+---
+
+### 🏆 Work Productivity
+
+**Prompt:**
+
+> Act as a productivity consultant. Recommend proven strategies to improve focus, efficiency, and output in a demanding work environment.
+
+---
+
+## 🎨 Creativity & Hobbies
+
+### 🎨 Art Project Ideas
+
+**Prompt:**
+
+> Act as a creative mentor. Suggest inspiring mixed-media art project ideas with themes, materials, and creative constraints.
+
+---
+
+### 🖋️ Poem Writing
+
+**Prompt:**
+
+> Act as a poet. Write a short, vivid poem capturing the mood and imagery of changing seasons.
+
+---
+
+### 📚 Classic Literature
+
+**Prompt:**
+
+> Act as a literature guide. Recommend classic books and briefly explain why each one is worth reading.
+
+---
+
+### 🎵 Musical Instruments
+
+**Prompt:**
+
+> Act as a music teacher. Recommend beginner-friendly instruments and compare learning difficulty, cost, and time commitment.
+
+---
+
+### 🧩 Puzzles
+
+**Prompt:**
+
+> Act as a puzzle enthusiast. Suggest fun and challenging puzzles across multiple difficulty levels.
+
+---
+
+### ✍️ Creative Writing Prompt
+
+**Prompt:**
+
+> Act as a writing coach. Create a compelling opening prompt for a dystopian short story with a strong hook and clear stakes.
+
+---
+
+### 🎬 Indie Films
+
+**Prompt:**
+
+> Act as a film critic. Recommend indie films known for unique storytelling, strong direction, or artistic experimentation.
+
+---
+
+### 📷 Photography Tips
+
+**Prompt:**
+
+> Act as a photography instructor. Share actionable tips on composition, lighting, and visual storytelling.
+
+---
+
+### 🎧 Focus Playlist
+
+**Prompt:**
+
+> Act as a music curator. Create a calming, distraction-free playlist optimized for deep focus and productivity.
+
+---
+
+### 📖 DIY Crafts
+
+**Prompt:**
+
+> Act as a DIY guide. Suggest simple, creative craft projects suitable for a relaxing day at home.
+
+---
+
+If you want next:
+
+* 🔥 **Turn this into a Notion / Markdown template**
+* 🤖 **Make it an AI system prompt**
+* 🎯 **Create an “Advanced / Pro” version**
+* 🧩 **Add constraints for senior engineers / founders**
+
+Just tell me.
