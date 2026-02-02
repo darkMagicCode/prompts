@@ -1,10 +1,5 @@
-Nice idea 👌 — this is already solid. I’ll **refine, unify, and upgrade** it so it feels like a **professional prompt library**: clearer roles, consistent wording, better constraints, and higher-quality outputs.
 
-Below is an **improved, polished version** you can reuse directly.
-
----
-
-# 🧠 Prompt Engineering Library (Refined & Professional)
+# 🧠 Prompt Engineering Library
 
 ## 📅 Daily Life & Productivity
 
